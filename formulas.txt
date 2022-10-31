@@ -1,0 +1,4 @@
+	     Week 1	   Week 2	   Week 3
+Set 1	65% x 5	   70% x 3	   75% x 5	
+Set 2	75% x 5	   80% x 3	   85% x 3	
+Set 3	85% x 5+   90% x 3+    95% x 1+

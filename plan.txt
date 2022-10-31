@@ -1,0 +1,12 @@
+This CLI needs the following:
+-- setmax: 
+    this will take reps x weight, calculate a 1RM then multiply it x 0.9 to get training max
+
+-- incmax: add 5lbs to the max at the end of each cycle.
+
+-- log: 
+    take lift + weight + reps and logs this
+
+-- showlog:
+     display the 531 log. default might be past month
+     flag could get all logs for a lift
