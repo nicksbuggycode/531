@@ -8,6 +8,7 @@ type Store struct {
 	db *sql.DB
 }
 
+// Create new Store object
 func NewStore(db *sql.DB) *Store{
 	return &Store{
 		db: db,
