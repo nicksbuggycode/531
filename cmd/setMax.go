@@ -45,6 +45,7 @@ var setMaxCmd = &cobra.Command{
 		if err != nil {
 			log.Fatal("Can't connect to DB:", err)
 		}
+		defer conn.Close()
 		queries := db.New(conn)
 		queries.SetMax(context.Background(), s)
 
