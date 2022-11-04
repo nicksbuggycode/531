@@ -1,10 +1,10 @@
-CREATE TABLE "Max" (
+CREATE TABLE "maxes" (
   "lift" varchar,
-  "1rm" integer,
-  "createdAt" varchar
+  "onerepmax" integer,
+  "trainingmax" integer
 );
 
-CREATE TABLE "Log" (
+CREATE TABLE "logs" (
   "lift" varchar,
   "weight" integer,
   "reps" integer,
